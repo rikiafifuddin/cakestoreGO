@@ -68,7 +68,7 @@ example `$ docker run -p 8080:8080 -t privyid`
 ```
 > all variable must be fill except "rating"
 
-####JSON BODY REUEST FOR PATCH or UPDDATE CAKE
+####JSON BODY REUEST FOR PATCH or UPDATE CAKE
 ```json
 {
 	"description" : "Cake From heaven",
@@ -77,7 +77,7 @@ example `$ docker run -p 8080:8080 -t privyid`
 ```
 > Edit/patch whatever you want to edit, one or more variable at the same time
 
-####Tanks
+####THANKS
 `IF YOU HAVE QUESTION U CAN CONTACT ME ON EMAIL: rikinur34@gmail.com`
 
 ![](https://pandao.github.io/editor.md/examples/images/4.jpg)
