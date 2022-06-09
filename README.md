@@ -11,13 +11,13 @@
 > "MySQL" [Link](https://www.mysql.com/) "Database"
 > "Docker" [Link](https://www.docker.com/) "Container"
 
-#Instalation
+# Instalation
 
-####Download or Clone Repository
+#### Download or Clone Repository
 
 `$ git clone https://github.com/rikiafifuddin/cakestoreGO.git`
 
-####Database
+#### Database
 open MySQL and create Database
  ###### Option 1 Import Database via import file
  - Open MySQL Workbench
@@ -46,7 +46,7 @@ example `$ docker build -t privyid . `
 example `$ docker run -p 8080:8080 -t privyid`
 - use API path on documentation or use Postman Collection provided `PrivyID.postman_collection.json` (import to your postman app)
 
-####PATH　
+#### PATH　
 
 ```go
 	router.HandleFunc("/cakes", service.ListOfCake).Methods("GET")
@@ -56,7 +56,7 @@ example `$ docker run -p 8080:8080 -t privyid`
 	router.HandleFunc("/cakes/{id}", service.DeleteCake).Methods("DELETE")
 ```
 
-####JSON BODY REQUEST FOR ADD NEW CAKE
+#### JSON BODY REQUEST FOR ADD NEW CAKE
 
 ```json
 {
@@ -68,16 +68,17 @@ example `$ docker run -p 8080:8080 -t privyid`
 ```
 > all variable must be fill except "rating"
 
-####JSON BODY REQUEST FOR PATCH or UPDATE CAKE
+#### JSON BODY REQUEST FOR PATCH or UPDATE CAKE
 ```json
 {
 	"description" : "Cake From heaven",
-    "rating" : 7,
+    	"rating" : 7,
 }
 ```
 > Edit/patch whatever you want to edit, one or more variable at the same time
 
-####THANKS
+#### THANKS
 `IF YOU HAVE QUESTION YOU CAN CONTACT ME ON EMAIL: rikinur34@gmail.com`
+> "Technical Test LINK" [GO Backend Engineer](https://peach-advantage-0ff.notion.site/Technical-Test-Backend-Engineer-632ff30b3e854de7a7fb859fccf98f19) 
 
 ![](https://pandao.github.io/editor.md/examples/images/4.jpg)
