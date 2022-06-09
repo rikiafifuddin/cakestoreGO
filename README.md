@@ -7,9 +7,11 @@
 - Applied request validation
 
 # Tools
-> "GO" [Link](https://go.dev/) "Programing Language"
-> "MySQL" [Link](https://www.mysql.com/) "Database"
-> "Docker" [Link](https://www.docker.com/) "Container"
+> [GO](https://go.dev/) "Programing Language"
+> 
+> [MySQL](https://www.mysql.com/) "Database"
+> 
+> [Docker](https://www.docker.com/) "Container"
 
 # Instalation
 
