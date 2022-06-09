@@ -56,7 +56,7 @@ example `$ docker run -p 8080:8080 -t privyid`
 	router.HandleFunc("/cakes/{id}", service.DeleteCake).Methods("DELETE")
 ```
 
-####JSON BODY REUEST FOR ADD NEW CAKE
+####JSON BODY REQUEST FOR ADD NEW CAKE
 
 ```json
 {
@@ -68,7 +68,7 @@ example `$ docker run -p 8080:8080 -t privyid`
 ```
 > all variable must be fill except "rating"
 
-####JSON BODY REUEST FOR PATCH or UPDATE CAKE
+####JSON BODY REQUEST FOR PATCH or UPDATE CAKE
 ```json
 {
 	"description" : "Cake From heaven",
@@ -78,6 +78,6 @@ example `$ docker run -p 8080:8080 -t privyid`
 > Edit/patch whatever you want to edit, one or more variable at the same time
 
 ####THANKS
-`IF YOU HAVE QUESTION U CAN CONTACT ME ON EMAIL: rikinur34@gmail.com`
+`IF YOU HAVE QUESTION YOU CAN CONTACT ME ON EMAIL: rikinur34@gmail.com`
 
 ![](https://pandao.github.io/editor.md/examples/images/4.jpg)
