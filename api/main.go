@@ -22,10 +22,9 @@ func main() {
 	router.HandleFunc("/cakes/{id}", service.UpdateCake).Methods("PATCH")
 	router.HandleFunc("/cakes/{id}", service.DeleteCake).Methods("DELETE")
 
+	log.Print("Starting APP at Port:", port)
 	if err := http.ListenAndServe(fmt.Sprintf(":%d", port), router); err != nil {
 		log.Print(err)
 		panic(err)
 	}
-
-	log.Print("Connected to Port:", port)
 }
