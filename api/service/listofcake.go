@@ -2,7 +2,6 @@ package api
 
 import (
 	"encoding/json"
-	"fmt"
 	"log"
 	"net/http"
 
@@ -34,8 +33,6 @@ func ListOfCake(w http.ResponseWriter, r *http.Request) {
 			&cake.Updated_at,
 		)
 		if err != nil {
-			response.ResponseCode = 500
-			response.Message = fmt.Sprintf("Internal Server Error %v", err)
 			log.Fatal(err.Error())
 		} else {
 			listOfCake = append(listOfCake, cake)
